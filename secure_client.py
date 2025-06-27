@@ -1,15 +1,4 @@
 #!/usr/bin/env python3
-"""
-Cliente MQTT Seguro com Autenticação por Certificados e Criptografia Ponta-a-Ponta
-Implementação para Avaliação 3 - Redes de Computadores II
-Funcionalidades implementadas conforme especificação:
-1. Autenticação por certificados digitais (assinados pela CA)
-2. Verificação do certificado do broker
-3. Criptografia de envelope (cliente-broker) com implementação própria
-4. Criptografia ponta-a-ponta entre clientes (broker não vê payload)
-5. Interface interativa para testes
-6. **Solicitação e armazenamento de certificado do broker (broker age como CA intermediária)**
-"""
 import socket
 import threading
 import json
